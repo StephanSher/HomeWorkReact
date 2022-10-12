@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top-style: groove;
+    margin-top: 60px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+}
+.footer{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+a{
+    text-decoration:none;
+    color: black;
+    opacity: 0.6;
+}
+svg:hover{
+    transform: scale(1.7);
+    transition-duration: 0.8s;
+}

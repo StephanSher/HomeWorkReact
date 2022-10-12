@@ -1,0 +1,27 @@
+.addGames {
+    text-align: center;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    cursor: pointer ;
+    text-align: center;
+    border-radius: 5px;
+}
+.buttonNew{
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    opacity: 0.6;
+
+
+}
+
+.buttonNew:hover {
+    background-color: #699af1;
+    opacity: 1;
+    transition-duration: 1.2s;
+
+}

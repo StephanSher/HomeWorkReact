@@ -1,0 +1,15 @@
+.header{
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.banner{
+    text-align: center;
+    background: url("./../../../public/img/1.jpg") no-repeat center  ;
+    width: 80%;
+    position: relative;
+    margin: auto;
+    height: 500px;
+    background-size: cover;
+}

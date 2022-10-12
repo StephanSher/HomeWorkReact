@@ -1,0 +1,85 @@
+.allCards {
+    max-width: 100%;
+    margin: auto;
+
+}
+
+.cards {
+    background-color: white;
+    position: relative;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    display: inline-flex;
+    margin: 60px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: #9a9792;
+}
+
+.item {
+    position: absolute;
+    top: 50px;
+    left: auto;
+    right: auto;
+    font-size: 25px;
+    hyphens: auto;
+
+}
+
+.input {
+    text-align: center;
+    align-items: center;
+}
+
+.buttonEd {
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 20px;
+    left: 30px;
+}
+
+.buttonEd:hover {
+    opacity: 0.6;
+    transform: scale(1.2);
+    transition-duration: 0.8s;
+
+}
+
+.buttonDel {
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 30px;
+}
+
+.buttonDel:hover {
+    background-color: #f57777;
+    transform: scale(1.2);
+    transition-duration: 0.8s;
+
+}
+
+.save {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+}
+.save:hover{
+    transform: scale(1.2) ;
+    transition-duration: 0.8s;
+    background-color: forestgreen;
+
+}
+
